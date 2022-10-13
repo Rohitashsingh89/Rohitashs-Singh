@@ -1,0 +1,384 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Roboto', sans-serif;
+    /* background-color: aliceblue; */
+}
+.pointer{
+    cursor: pointer;
+}
+.header{
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.righthead{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    /* float: right; */
+}
+.logo{
+    padding:0 2rem;
+    padding-top: 0.6rem;
+    width: 100%;
+    color: rgb(29, 29, 210);
+    align-items: center;
+}
+.logo:hover{
+    cursor: pointer;
+}
+.menuhead{
+    display: flex;
+}
+.righthead ul{
+    display: flex;
+    justify-content: center;
+    padding-top: 0.3rem;
+}
+.right{
+    list-style: none;
+    margin: 0.7rem;
+}
+.bodonhover:hover{
+    cursor: pointer;
+    border-bottom: 2px solid blue;
+}
+.loginbtn{
+    /* text-align: center; */
+    margin: 0.5rem;
+    margin-right: 2rem;
+}
+.btn{
+    display: inline-flex;
+    color: white;
+    border-radius: 8px;
+    background-color: rgb(29, 29, 210);
+    /* width: auto; */
+    padding: 8px;
+    margin:0 0.5rem;
+    border: 0px solid aliceblue;
+    justify-content: center;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(79, 79, 178);
+}
+.bar1{
+    width:25px;
+    height: 5px;
+    background-color: black;
+    margin: 0.1rem;
+}
+.bar2{
+    width:25px;
+    height: 5px;
+    background-color: black;
+    margin: 0.1rem;
+}
+.bar3{
+    width:25px;
+    height: 5px;
+    background-color: black;
+    margin: 0.1rem;
+}
+.rew{
+    size: 56;
+    font-size: large;
+}
+/* navbar */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem 0 0 0;
+    border-top: 0.01px solid rgb(200, 200, 245);
+    border-bottom: 0.1px solid rgb(200, 200, 245);
+    align-items: center;
+}
+.home{
+    padding: 1rem 2rem;
+    color: rgb(29, 29, 210);
+}
+.midnav{
+    display: flex;
+}
+.search{
+    padding-right: 4rem;
+}
+.lang{
+    margin:0 1rem; 
+    color: rgb(34, 34, 240);
+}
+a{
+    text-decoration: none;
+    color: rgb(34, 34, 240);
+}
+
+/* text and image below navbar */
+.contentbox{
+    display: flex; 
+    height: 24rem;
+    width: 100%;
+    background-color: aliceblue;
+}
+.card{
+    display: flex;
+    /* text-align: center; */
+    width: 100%;
+    /* padding-left: 3rem; */
+    /* padding-right: 3rem; */
+    /* flex-direction: column; */
+}
+.left{
+    margin: auto;
+    /* text-align: center; */
+    text-align: left;
+    padding-left: 5rem;
+}
+.left h2{
+    font-size: 40px;
+}
+.text{
+    /* align-items: center; */
+    margin-top: .5rem;
+    /* box-sizing: border-box; */
+}
+.btncontainer{
+    display: flex;
+}
+.bttn{
+    margin-top: 2rem;
+    margin-right: 1rem;
+    padding: 15px;
+    border-radius: 8px;
+    border: 0px solid aliceblue;
+}
+#cv{
+    background-color: rgb(56, 50, 50);
+    color: rgb(204, 188, 188);
+}
+#blog{
+    background-color: rgb(219, 207, 207);
+    color: rgb(31, 27, 27);
+}
+.image{
+    position: relative;
+    object-fit: cover;
+    display: flex;
+    display: block;
+    /* width: 400px; */
+    height: 24rem;
+    /* float: right; */
+    padding:0 4rem;
+    /* margin: 0 4rem; */
+}
+.teccontainer{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+}
+.usetech{
+    margin: 4rem;
+    text-align: center;
+}
+.techrow{
+    display: flex;
+    flex-direction: column;
+    padding: 0 6rem;
+    margin: 4rem;
+}
+.upbox{
+    display: flex;
+}
+.downbox{
+    display: flex;
+}
+img{
+    box-sizing: border-box;
+    background-color: red;
+    height: 100%;
+}
+.timage{
+    padding: 1rem;
+    width: 100%;
+    margin: 0.9rem;
+    /* height: 100%; */
+}
+.box{
+    height: 7rem;
+    background-color: white;
+    border-radius: 2rem;
+    margin: 1.5rem;
+    text-align: center;
+    /* box-shadow: 2px 2px 20px rgb(232, 229, 229), 0 0 1em rgb(232, 229, 229), 0 0 0.2em rgb(232, 229, 229); */
+}
+#opencv{
+    padding: 0 3rem;
+    padding-top: 7px;
+}
+.py{
+    padding: 15px;
+}
+.pl{
+    padding-left: 20px;
+}
+.img{
+    /* color: white; */
+    background-color: white;
+    width: 100%;
+}
+
+/* technology we use */
+.boxcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 3rem;
+}
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    /* color: white; */
+    margin: 1rem;
+    /* box-shadow: ; */
+    border: 1px solid beige;
+    border-radius: 2px;
+}
+.box-img{
+    box-sizing: border-box;
+    background-color: white;
+    width: 100%;
+    height: 2rem;
+    margin-top: 1rem;
+    align-items: center;
+}
+.box1 p{
+    text-align: center;
+}
+
+/* footer  */
+.footer{
+    padding: 4rem;
+    display: flex;
+    background-color: black;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+}
+.name{
+    margin-bottom: 20px;
+}
+.fcontainer{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-right: 8rem;
+}
+.fcontainer p{
+    padding: 0.3rem;
+    font-size: 12pt;
+    opacity: 0.7;
+}
+.fsearch{
+    text-align: center;
+    padding: 2rem;
+}
+.fhead{
+    padding: 1rem 0;
+    font-size: 20pt;
+}
+.media{
+    padding: 2rem;
+    display: flex;
+}
+.px{
+    padding: 4px;
+}
+.py{
+    padding: 1rem;
+}
+.face{
+    padding: 1px;
+    margin: 1rem;
+    border: 0px solid black;
+}
+.fa{
+    background-color: black;
+    color: white;
+}
+.email{
+    padding: 1rem;
+    border-radius: 10px;
+    width: 20vw;
+    padding: 10px 15px;
+    font-size: large;
+    border: 0.1px solid black;
+}
+.fbtn{
+    padding: 0.8rem;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+    #signup{display: none;}
+    .image{display: none;}
+    .midnav{display: none;}
+    .card{
+        display: flex;
+        width: 100%;
+        margin: auto;
+        justify-content: center;
+    }
+    .left{
+        margin: auto;
+        text-align: center;
+        padding: 2rem;
+    }
+    .btncontainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .righthead li{
+        display: none;
+    }
+    .upbox{
+        display: flex;
+        flex-direction: column;
+        height: 20rem;
+        width: 100%;
+    }
+    .downbox{
+        flex-direction: column;
+    }
+    .footer{
+        text-align: center;
+    }
+    .name h1{
+        padding: 1rem;
+    }
+    .fcontainer{
+        flex-direction: column;
+        text-align: center;
+        padding: 0rem;
+        margin: auto;
+    }
+    .fhead{
+        margin-top: 2rem;
+    }
+    .media{
+        justify-content: center;
+    }
+    
+}
