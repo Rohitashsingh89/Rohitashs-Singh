@@ -194,10 +194,6 @@ a{
 .downbox{
     display: flex;
 }
-img{
-    box-sizing: border-box;
-    background-color: red;
-    height: 100%;
 }
 .timage{
     padding: 1rem;
@@ -227,6 +223,8 @@ img{
     /* color: white; */
     background-color: white;
     width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
 }
 
 /* technology we use */
@@ -324,12 +322,6 @@ img{
     background-color: blue;
     color: white;
 }
-
-
-
-
-
-
 
 
 
