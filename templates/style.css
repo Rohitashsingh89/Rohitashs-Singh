@@ -359,6 +359,7 @@ a{
     }
     .downbox{
         flex-direction: column;
+        padding-top: 24vh;
     }
     .footer{
         text-align: center;
