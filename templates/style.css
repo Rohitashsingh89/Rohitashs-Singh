@@ -181,6 +181,7 @@ a{
 .usetech{
     margin: 4rem;
     text-align: center;
+    padding-top: 15vh;
 }
 .techrow{
     display: flex;
@@ -233,6 +234,7 @@ a{
     display: flex;
     flex-wrap: wrap;
     margin-left: 3rem;
+    padding-bottom: 10vh;
 }
 .box1{
     width: 100px;
