@@ -202,7 +202,8 @@ a{
     /* height: 100%; */
 }
 .box{
-    height: 7rem;
+    width: 20vw;
+    height: 10vh;
     background-color: white;
     border-radius: 2rem;
     margin: 1.5rem;
