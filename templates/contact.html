@@ -1,66 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>notes hub</title>
+    <link rel="stylesheet" href="utils.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="contact.css">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="form.css">
 </head>
-
 <body>
-    <body>
-        <div class="headsec">
-            <div class="header">
-                <div class="logo">
-                    <h2>Rohitash Singh</h2>
-                </div>
-                <!-- <a href="https://dribbble.com/aromalanil"> Layout</a> -->
-                <div class="righthead">
-                    <ul>
-                        <li class="right bodonhover">
-                            <a href="/portfolio/portfolio 2.0/index.html">Home</a>
-                        </li>
-                        <li class="right bodonhover">
-                            <a href="#about">About</a>
-                        </li>
-                        <li class="right bodonhover">
-                            <a href="/portfolio/portfolio 2.0/blog.html">Blog</a>
-                        </li>
-                        <li class="right bodonhover">
-                            <a href="/portfolio/portfolio 2.0/contact.html">Contact Us</a>
-                        </li>
-                    </ul>
-                    <div class="loginbtn">
-                        <button class="btn" id="login">Login</button>
-                        <button class="btn" id="signup">Signup</button>
-                    </div>
-                </div>
-            </div>
+    <nav class="navigation">
+        <div class="left">
+            <a href="index.html" class="title">Notes</a>
+            <ul >
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
         </div>
-        <form action="action.php">
-            <div class="name">
-                Name: <input type="text" name="name" id="name" width="100%">
-            </div>
-            <div class="email">
-                Email: <input type="email" name="email" id="email" width="100%">
-            </div>
-            <div class="gender">
-                Gender: <input type="radio" name="gender" id="gender" width="100%">
-                        <input type="radio" name="gender" id="gender" width="100%">
-            </div>
+        <hr>
+    </nav>
+    <!-- <nav>
+        <div class="right">
+            <input type="text" placeholder="Search your notes?" class="form-control">
+            <button class="btn">Search</button>
+        </div>
+    </nav> -->
+    <!-- <div class="form">
+            <header>
+                <div><h1>We Are Here To Help.</h1></div>
+                <p>We'll are here to help you?</p>
+            </header> -->
+            <!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Contact form</title> -->
+    <!-- <link rel="stylesheet" href="form.css"> -->
+<!-- </head>
+<body>
+     -->
+    <div class="container">
+    <header>
+        <nav>
+            <h1>Contact Form</h1>
+            <p>Please fill all the texts in the fields.</p>
+        </nav>
+    </header>
+    <div class="main">
+        Your Name:<br>  <input type="text" name="name" id="name" placeholder="Your Full Name"><br> <br> 
+        Your Email: <br> <input type="email" name="email" placeholder="Valid Email Address" id="email"><br> <br> 
+        What\s your question,comment,or issue?<br>  <input type="text" name="text" placeholder="Your Message to Us" id="message"><br> <br> 
+        Subject:<br><input type="text" name="name" placeholder="Anything else" id="subject"><br> 
+        <input type="submit" value="send" id="submit" onclick="myFunction()">
+    </div>
+    </div>
+</body>
+</html>
+    </div>
+    <div class="footer">
+        Copyright &copy not reserved!
+    </div>
 
-        </form>
-    
-            
+    <script src="contact.js"></script>
 </body>
 </html>
