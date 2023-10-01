@@ -1,11 +1,13 @@
 ﻿# Coding Website
- This is a simple coding website
+ This is a Blogging System in Flask
  ## visit now
  https://mellow-cobbler-2650ca.netlify.app/
  # Technologies
  - HTML
  - CSS 
  - JavaScript
+ - Flask
+   
  # ScreenShots
  ## This is home page 
  ![image](https://user-images.githubusercontent.com/93479842/213625863-7901813b-0ad3-4dc6-9513-0913a0881a37.png)
